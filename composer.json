@@ -1,0 +1,28 @@
+{
+    "name": "poweronsystem/webform",
+    "type": "library",
+    "description": "Creador de esquemas para formularios.",
+    "keywords": ["form", "formhelper", "form schema"],
+    "homepage": "https://github.com/poweronsystem/webform",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Lucas Sosa",
+            "email": "sosalucas87@gmail.com",
+            "homepage": "http://www.poweronsistemas.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "poweronsystem/webutility": "^0.1.0"
+    },
+    "require-dev": {
+        "kint-php/kint": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PowerOn\\Form\\": "src"
+        }
+    }
+}
